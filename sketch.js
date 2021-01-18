@@ -3,14 +3,10 @@ let button2;
 let angle = 0;
 let topImg;
 
-// function preload() {
-//   topImg = loadImage('https://github.com/BBSCodes/EnergyWheel/blob/main/Top.png');
-// }
+
 function setup() {
   createCanvas(1080, 1080);
   background(220);
-//   imageMode(CENTER);
-//   topImg = loadImage('Top.png');
 
 
 }
@@ -18,7 +14,7 @@ function setup() {
 function draw() {
   translate(width/2, height/2);
   rotate(.35);
-//   image(topImg, 0,0,1080/2,1080/2);
+
 
     button1 = createButton('Rotate');
     button1.position(300, 60);
