@@ -15,7 +15,7 @@ function setup() {
 function draw() {
   translate(width/2, height/2);
   rotate(.35);
-  image(topImg, 0,0,800,800);
+  image(topImg, 0,0,1000,80);
 
 }
 
