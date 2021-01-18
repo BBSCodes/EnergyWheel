@@ -3,11 +3,14 @@ let button2;
 let angle = 0;
 let topImg;
 
+function preload() {
+  topImg = loadImage('Top.png');
+}
 function setup() {
   createCanvas(1080, 1080);
   background(220);
   imageMode(CENTER);
-  topImg = loadImage('Thttps://github.com/BBSCodes/EnergyWheel/blob/main/Top.png');
+  //topImg = loadImage('Top.png');
 
 
 }
