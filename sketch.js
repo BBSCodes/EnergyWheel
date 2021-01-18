@@ -3,10 +3,11 @@ let button2;
 let angle = 0;
 let topImg;
 
-
 function setup() {
   createCanvas(1080, 1080);
   background(220);
+  imageMode(CENTER);
+  topImg = loadImage('https://github.com/BBSCodes/EnergyWheel/blob/main/Top.png');
 
 
 }
@@ -14,18 +15,18 @@ function setup() {
 function draw() {
   translate(width/2, height/2);
   rotate(.35);
+  image(topImg, 0,0,1080/2,1080/2);
 
+  //   button1 = createButton('Rotate');
+  //   button1.position(300, 60);
+  //   button1.mousePressed(changeOrientation);
 
-    button1 = createButton('Rotate');
-    button1.position(300, 60);
-    button1.mousePressed(changeOrientation);
-
-    button2 = createButton('Reset');
-    if(mouseIsPressed == button2){
-      angle = 0;
-    }
-    button2.position(300, 82);
-    button2.mousePressed(resetOrientation);
+  //   button2 = createButton('Reset');
+  //   if(mouseIsPressed == button2){
+  //     angle = 0;
+  //   }
+  //   button2.position(300, 82);
+  //   button2.mousePressed(resetOrientation);
 }
 
 function drawRect(x, y) {
