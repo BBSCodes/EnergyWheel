@@ -4,7 +4,7 @@ let angle = 0;
 let topImg;
 
 function preload() {
-  topImg = loadImage('Top.png');
+  topImg = loadImage('https://github.com/BBSCodes/EnergyWheel/blob/main/Top.png');
 }
 function setup() {
   createCanvas(1080, 1080);
