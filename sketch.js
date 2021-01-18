@@ -7,7 +7,7 @@ function setup() {
   createCanvas(1080, 1080);
   background(220);
   imageMode(CENTER);
-  topImg = loadImage('Top.png');
+  topImg = loadImage('Thttps://github.com/BBSCodes/EnergyWheel/blob/main/Top.png');
 
 
 }
