@@ -15,8 +15,18 @@ function setup() {
 function draw() {
   translate(width/2, height/2);
   rotate(.35);
-  image(topImg, 0,0,1000,80);
+  image(topImg, 0,0,1000,1080/2);
 
+  //   button1 = createButton('Rotate');
+  //   button1.position(300, 60);
+  //   button1.mousePressed(changeOrientation);
+
+  //   button2 = createButton('Reset');
+  //   if(mouseIsPressed == button2){
+  //     angle = 0;
+  //   }
+  //   button2.position(300, 82);
+  //   button2.mousePressed(resetOrientation);
 }
 
 function drawRect(x, y) {
